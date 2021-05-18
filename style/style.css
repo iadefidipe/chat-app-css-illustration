@@ -1,1 +1,30 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::after, *:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  max-width: 1440px;
+  font-family: "Rubik", sans-serif;
+  margin: 0px auto;
+}
+/*# sourceMappingURL=style.css.map */
