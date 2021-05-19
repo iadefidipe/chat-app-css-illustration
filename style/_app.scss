@@ -1,0 +1,23 @@
+.app{
+    margin-left: rem(30);
+    background: white;
+    width: rem(270);
+    height: rem(570);
+    display: grid;
+    place-items: center;
+    border-radius: rem(25);
+
+    &__screen{
+        width: rem(250);
+        height: rem(510);
+        border-radius: rem(20);
+        display: flex;
+        flex-direction: column;
+
+        &__header{
+            background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+            border-radius: rem(20) rem(10) rem(20) rem(10);
+        }
+    }
+
+}

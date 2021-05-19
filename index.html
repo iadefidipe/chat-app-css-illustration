@@ -12,8 +12,12 @@
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
+  <meta name="description" content="This is a chat app landing page from frontendmentor challenge.">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -24,40 +28,45 @@
 <body>
 
   <div class="main-container">
-    <div class="phone-container">
-      <phone>
-        <div class="profile">
-          <img src="./images/avatar.jpg" alt="avatar">
-          <div class="profile-text">
-            <p class="profile-name">Samuel Green</p>
-            <p class="profile-status">Available to Walk</p>
+    <div class="app">
+      
+        <div class="app__screen">
+          <div class="app__screen__header">
+            <div class="app__header__bezzel"></div>
+            <div class="app__header__profile">
+              <img src="./images/avatar.jpg" alt="avatar">
+              <div class="app__header__profile__text">
+                <p class="app__header__profile__name">Samuel Green</p>
+                <p class="app__header__profile__status">Available to Walk</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="message message__dog-walker">That sounds great. I’d be happy with that.</div>
-        <div class="message message__dog-walker">
-          Could you send over some pictures of your dog, please?
-          Here are a few pictures. She’s a happy girl!
-        </div>
 
-        <div class="image-wrapper">
-          <img src="./images/dog-image-1.jpg" alt="dog">
-          <img src="./images/dog-image-2.jpg" alt="dog">
-          <img src="./images/dog-image-3.jpg" alt="dog">
+          <div class="message message__dog-walker">That sounds great. I’d be happy with that.</div>
+          <div class="message message__dog-walker">
+            Could you send over some pictures of your dog, please?
+            Here are a few pictures. She’s a happy girl!
+          </div>
+          <div class="image-wrapper">
+            <img src="./images/dog-image-1.jpg" alt="dog">
+            <img src="./images/dog-image-2.jpg" alt="dog">
+            <img src="./images/dog-image-3.jpg" alt="dog">
+          </div>
+          <div class="message message__dog-owner">Can you make it?</div>
+          <div class="message message__dog-owner">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
+          <div class="option">
+            <span>30 minute walk</span>
+            <span>$29</span>
+          </div>
+          <div class="option">
+            <span>1 hour walk</span>
+            <span>$49</span>
+          </div>
+          <div class="text-field__placeholder">Type a message…</div>
+          
         </div>
-        <div class="message message__dog-owner">Can you make it?</div>
-        <div class="message message__dog-owner">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
-        <div class="option">
-          <span>30 minute walk</span>
-          <span>$29</span>
-        </div>
-        <div class="option">
-          <span>1 hour walk</span>
-          <span>$49</span>
-        </div>
-        <div class="text-field__placeholder">Type a message…</div>
-        
-      </phone>
     </div>
+
     <div class="text-wrapper">
       <h1>Simple booking</h1>
       <p class="copy-paragraph">
@@ -70,7 +79,8 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Israel Adefidipe</a>.
   </div>
+
 </body>
 </html>

@@ -16,7 +16,7 @@ a {
 }
 
 img {
-  width: 100%;
+  width: 10%;
   height: auto;
 }
 
@@ -60,5 +60,35 @@ body {
   border-radius: 1000px 1000px 0px 0px;
   background-image: linear-gradient(-20deg, #8838ff, #e942ff);
   z-index: -10;
+}
+
+.app {
+  margin-left: 1.875rem;
+  background: white;
+  width: 16.875rem;
+  height: 35.625rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 1.5625rem;
+}
+
+.app__screen {
+  width: 15.625rem;
+  height: 31.875rem;
+  border-radius: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app__screen__header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
+  background-image: linear-gradient(#e942ff, #8838ff);
+  border-radius: 1.25rem 0.625rem 1.25rem 0.625rem;
 }
 /*# sourceMappingURL=style.css.map */
