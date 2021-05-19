@@ -11,12 +11,24 @@
         width: rem(250);
         height: rem(510);
         border-radius: rem(20);
-        display: flex;
-        flex-direction: column;
 
         &__header{
             background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
-            border-radius: rem(20) rem(10) rem(20) rem(10);
+            border-radius: rem(20) rem(20) rem(10) rem(10);
+
+            &__bezzel{
+                background: white;
+                height: rem(20);
+                width: rem(100);
+                border-radius: 0 0 rem(10) rem(10);
+                margin: 0 auto;
+            }
+
+            &__area{
+                padding: 0 rem(10) rem(10) rem(10) ;
+            }
+
+
         }
     }
 

@@ -62,6 +62,48 @@ body {
   z-index: -10;
 }
 
+i {
+  color: #d89eff;
+  font-size: 0.75rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-jc-e {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-fd-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .app {
   margin-left: 1.875rem;
   background: white;
@@ -77,18 +119,23 @@ body {
   width: 15.625rem;
   height: 31.875rem;
   border-radius: 1.25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .app__screen__header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
   background-image: linear-gradient(#e942ff, #8838ff);
-  border-radius: 1.25rem 0.625rem 1.25rem 0.625rem;
+  border-radius: 1.25rem 1.25rem 0.625rem 0.625rem;
+}
+
+.app__screen__header__bezzel {
+  background: white;
+  height: 1.25rem;
+  width: 6.25rem;
+  border-radius: 0 0 0.625rem 0.625rem;
+  margin: 0 auto;
+}
+
+.app__screen__header__area {
+  padding: 0 0.625rem 0.625rem 0.625rem;
 }
 /*# sourceMappingURL=style.css.map */

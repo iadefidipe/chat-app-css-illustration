@@ -57,5 +57,36 @@ body {
     }
 }
 
+i{
+    color: $color-app-sub-heading;
+    font-size: rem(12);
+}
+
+// ===========Flex helper class ==========
+
+.flex{
+    display: flex;
+    
+    &-jc-sb{
+        justify-content: space-between;
+    }
+
+    &-jc-c{
+        justify-content: center;
+    }
+
+    &-jc-e{
+        justify-content: space-evenly;
+    }
+
+    &-ai-c{
+        align-items: center;
+    }
+
+    &-fd-c{
+        flex-direction: column;
+    }
+}
+
 
 
