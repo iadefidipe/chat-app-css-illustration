@@ -1,0 +1,5 @@
+h7{   display: grid;
+    gap: rem(10);
+        grid-template-columns: repeat(9,1fr);
+        grid-template-areas: 
+        "message1" "message2" "pictures" "message4" "message5" "message6" "option1" "option2" "text-field";}

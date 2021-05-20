@@ -173,4 +173,44 @@ i {
   font-size: 0.625rem;
   color: white;
 }
+
+.app__body {
+  background: #f5f3f7;
+  gap: 0.625rem;
+  padding: 0.625rem 0.625rem;
+}
+
+.app__body p {
+  font-size: 0.5625rem;
+  font-weight: 400;
+}
+
+.app__body__message__dog-walker1 {
+  background: #602c90;
+  border-radius: 0.3125rem;
+  width: 70%;
+}
+
+.app__body__message__dog-walker1 {
+  background: #f0e0ff;
+  border-radius: 0.3125rem;
+  width: 60%;
+  padding: 0.3125rem;
+}
+
+.app__body__message__dog-walker2 {
+  background: #f0e0ff;
+  border-radius: 0.3125rem;
+  width: 60%;
+  padding: 0.3125rem;
+}
+
+h7 {
+  display: -ms-grid;
+  display: grid;
+  gap: 0.625rem;
+  -ms-grid-columns: (1fr)[9];
+      grid-template-columns: repeat(9, 1fr);
+      grid-template-areas: "message1" "message2" "pictures" "message4" "message5" "message6" "option1" "option2" "text-field";
+}
 /*# sourceMappingURL=style.css.map */

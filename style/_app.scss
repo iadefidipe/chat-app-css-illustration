@@ -66,4 +66,42 @@
         }
     }
 
+    &__body{
+        background: $color-app-bg;
+        gap: rem(10);
+        padding: rem(10) rem(10);
+
+        p{
+                font-size: rem(9);
+                font-weight: 400;
+            }
+
+        &__message{
+            
+
+            &__dog-walker1{
+                background: hsl(271, 53%, 37%);
+                border-radius: rem(5);
+                width: 70%;
+            }
+
+            &__dog-walker1{
+                background: hsl(270, 100%, 94%);
+                border-radius: rem(5);
+                width: 60%;
+                padding: rem(5);
+            }
+            &__dog-walker2{
+                background: hsl(270, 100%, 94%);
+                border-radius: rem(5);
+                width: 60%;
+                padding: rem(5);
+            }
+
+
+        }
+
+        
+    }
+
 }
