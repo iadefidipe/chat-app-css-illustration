@@ -72,18 +72,13 @@
         padding: rem(10) rem(10);
 
         p{
-                font-size: rem(9);
+                font-size: rem(8);
                 font-weight: 400;
+                line-height: rem(14);
             }
 
         &__message{
             
-
-            &__dog-walker1{
-                background: hsl(271, 53%, 37%);
-                border-radius: rem(5);
-                width: 70%;
-            }
 
             &__dog-walker1{
                 background: hsl(270, 100%, 94%);
@@ -91,6 +86,7 @@
                 width: 60%;
                 padding: rem(5);
             }
+            
             &__dog-walker2{
                 background: hsl(270, 100%, 94%);
                 border-radius: rem(5);
@@ -98,7 +94,40 @@
                 padding: rem(5);
             }
 
+            &__dog-walker3{
+                background: hsl(270, 100%, 94%);
+                border-radius: rem(5);
+                width: 55%;
+                padding: rem(5);
+            }
 
+            &__dog-owner1{
+                background: white;
+                border-radius: rem(5) rem(5) 0 rem(5);
+                width: 60%;
+                padding: rem(5);
+                align-self: flex-end;
+            }
+
+            &__dog-owner2{
+                background: white;
+                border-radius: rem(5) rem(5) 0 rem(5);
+                width: 40%;
+                padding: rem(5);
+                align-self: flex-end;
+            }
+
+
+        }
+
+        &__image-wrapper{
+            align-self: flex-end;
+            gap: rem(10);
+            img{
+                width: rem(50);
+                height: rem(50);
+                border-radius: rem(10);
+            }
         }
 
         

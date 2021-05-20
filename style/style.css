@@ -181,14 +181,9 @@ i {
 }
 
 .app__body p {
-  font-size: 0.5625rem;
+  font-size: 0.5rem;
   font-weight: 400;
-}
-
-.app__body__message__dog-walker1 {
-  background: #602c90;
-  border-radius: 0.3125rem;
-  width: 70%;
+  line-height: 0.875rem;
 }
 
 .app__body__message__dog-walker1 {
@@ -203,6 +198,43 @@ i {
   border-radius: 0.3125rem;
   width: 60%;
   padding: 0.3125rem;
+}
+
+.app__body__message__dog-walker3 {
+  background: #f0e0ff;
+  border-radius: 0.3125rem;
+  width: 55%;
+  padding: 0.3125rem;
+}
+
+.app__body__message__dog-owner1 {
+  background: white;
+  border-radius: 0.3125rem 0.3125rem 0 0.3125rem;
+  width: 60%;
+  padding: 0.3125rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.app__body__message__dog-owner2 {
+  background: white;
+  border-radius: 0.3125rem 0.3125rem 0 0.3125rem;
+  width: 40%;
+  padding: 0.3125rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.app__body__image-wrapper {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  gap: 0.625rem;
+}
+
+.app__body__image-wrapper img {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 0.625rem;
 }
 
 h7 {
