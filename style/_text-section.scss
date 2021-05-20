@@ -1,5 +1,23 @@
-h7{   display: grid;
-    gap: rem(10);
-        grid-template-columns: repeat(9,1fr);
-        grid-template-areas: 
-        "message1" "message2" "pictures" "message4" "message5" "message6" "option1" "option2" "text-field";}
+
+// Text Wrapper Section (2nd Section)
+
+.text-wrapper {
+    background-color:  $color-app-bg;
+    align-self: center;
+    
+    
+    &__container {
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        gap: rem(20);
+        
+        p{
+            color: #a39daa;
+            margin-right: 130px;
+            padding-right: rem(150);
+        }
+    }
+} 
+
+

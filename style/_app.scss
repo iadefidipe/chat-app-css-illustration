@@ -1,20 +1,35 @@
+// App Section 
+.app-container {
+    background-color: $color-app-bg;
+}
+
+
+// App Illustration
+
 .app{
-    margin-left: rem(30);
-    background: white;
+    background-color: #fff;
     width: rem(270);
-    height: rem(570);
+    height: rem(550);
+    transform: translateX(300px);
     display: grid;
     place-items: center;
     border-radius: rem(25);
+    
 
     &__screen{
+        display: flex;
+        flex-direction: column;
         width: rem(250);
-        height: rem(510);
+        height: rem(530);
         border-radius: rem(20);
+        background: $color-app-bg;
 
         &__header{
+            display: flex;
+            flex-direction: column;
             background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
             border-radius: rem(20) rem(20) rem(10) rem(10);
+            
 
             &__bezzel{
                 background: white;
@@ -25,11 +40,16 @@
             }
 
             &__area{
+                display: flex;
+                justify-content: space-between;
                 margin-top: rem(10);
                 padding: 0 rem(20) rem(10) rem(20) ;
                 
 
                 &__profile{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
                     margin-left: rem(-60);
                     gap: rem(10);
 
@@ -67,9 +87,10 @@
     }
 
     &__body{
-        background: $color-app-bg;
+        display: flex;
+        flex-direction: column;
         gap: rem(10);
-        padding: rem(10) rem(10);
+        padding: rem(20) rem(10) ;
 
         p{
                 font-size: rem(8);
@@ -85,6 +106,7 @@
                 border-radius: rem(5);
                 width: 60%;
                 padding: rem(5);
+                color: $color-left-chat;
             }
             
             &__dog-walker2{
@@ -92,6 +114,7 @@
                 border-radius: rem(5);
                 width: 60%;
                 padding: rem(5);
+                color: $color-left-chat;
             }
 
             &__dog-walker3{
@@ -99,6 +122,7 @@
                 border-radius: rem(5);
                 width: 55%;
                 padding: rem(5);
+                color: $color-left-chat;
             }
 
             &__dog-owner1{
@@ -107,6 +131,7 @@
                 width: 60%;
                 padding: rem(5);
                 align-self: flex-end;
+                color: $color-right-chat;
             }
 
             &__dog-owner2{
@@ -115,12 +140,14 @@
                 width: 40%;
                 padding: rem(5);
                 align-self: flex-end;
+                color: $color-right-chat;
             }
 
 
         }
 
         &__image-wrapper{
+            display: flex;
             align-self: flex-end;
             gap: rem(10);
             img{
@@ -131,6 +158,8 @@
         }
 
         &__option{
+            display: flex;
+            align-items: center;
             background: $color-gradient;
             border-radius: rem(10) rem(10) rem(10) 0;
             padding: rem(5);
@@ -150,7 +179,32 @@
         }
 
         &__text-field{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             background: white;
+            padding: rem(7) rem(7) rem(7) rem(20);
+            border-radius: rem(30);
+
+            a{
+                >div{
+                    background: black;
+                    width: rem(22);
+                    height: rem(22);
+                    border-radius: rem(50);
+                    display: grid;
+                    place-items: center;
+
+                    i{
+                        color: white;
+                    }
+
+                }
+                
+
+                
+            }
+
         }
 
         
