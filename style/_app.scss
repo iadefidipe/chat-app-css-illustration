@@ -14,6 +14,12 @@
     display: grid;
     place-items: center;
     border-radius: rem(25);
+    @media screen and (max-width: 1200px) {
+        transform: translateX(0);
+        margin: rem(100) auto 0 auto;
+        z-index: 1;
+
+    }
     
 
     &__screen{
@@ -165,6 +171,7 @@
             padding: rem(5);
             width: 70%;
             gap: rem(20);
+            color: white;
 
 
             >span:first-of-type{
@@ -185,10 +192,11 @@
             background: white;
             padding: rem(7) rem(7) rem(7) rem(20);
             border-radius: rem(30);
+            color:$color-placeholder-text;
 
             a{
                 >div{
-                    background: black;
+                    background: #473e51;
                     width: rem(22);
                     height: rem(22);
                     border-radius: rem(50);
