@@ -18,14 +18,48 @@
 
             &__bezzel{
                 background: white;
-                height: rem(20);
-                width: rem(100);
+                height: rem(15);
+                width: rem(150);
                 border-radius: 0 0 rem(10) rem(10);
                 margin: 0 auto;
             }
 
             &__area{
-                padding: 0 rem(10) rem(10) rem(10) ;
+                margin-top: rem(10);
+                padding: 0 rem(20) rem(10) rem(20) ;
+                
+
+                &__profile{
+                    margin-left: rem(-60);
+                    gap: rem(10);
+
+                    &__image{
+
+                        img{
+                            border: 1px solid white;
+                            border-radius: rem(20);
+                            height: rem(25);
+                            width: rem(25);
+                        }
+
+                    }
+
+                    &__text{
+                        &__name{
+                                font-size: rem(12);
+                                font-weight: 700;
+                                color: white;
+                            }
+
+
+                        &__status{
+                            
+                            font-size: rem(10);
+                            color: white;
+                            
+                        }
+                    }
+                }
             }
 
 

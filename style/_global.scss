@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 img {
-    width: 10%;
+    width: 100%;
     height: auto;
 }
 
@@ -74,6 +74,14 @@ i{
     &-jc-c{
         justify-content: center;
     }
+
+    &-jc-sa{
+        justify-content: space-around;
+    }
+    &-jc-fs{
+        justify-content: flex-start;
+    }
+
 
     &-jc-e{
         justify-content: space-evenly;
