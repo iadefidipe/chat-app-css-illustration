@@ -237,6 +237,28 @@ i {
   border-radius: 0.625rem;
 }
 
+.app__body__option {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
+  background: linear-gradient(#e942ff, #8838ff);
+  border-radius: 0.625rem 0.625rem 0.625rem 0;
+  padding: 0.3125rem;
+  width: 70%;
+  gap: 1.25rem;
+}
+
+.app__body__option > span:first-of-type {
+  font-size: 0.5rem;
+}
+
+.app__body__option > span:last-of-type {
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.app__body__text-field {
+  background: white;
+}
+
 h7 {
   display: -ms-grid;
   display: grid;

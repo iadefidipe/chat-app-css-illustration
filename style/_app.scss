@@ -130,6 +130,29 @@
             }
         }
 
+        &__option{
+            background: $color-gradient;
+            border-radius: rem(10) rem(10) rem(10) 0;
+            padding: rem(5);
+            width: 70%;
+            gap: rem(20);
+
+
+            >span:first-of-type{
+                font-size: rem(8);
+            }
+            >span:last-of-type{
+                font-size: rem(15);
+                font-weight: $weight-heavy;
+            }
+
+
+        }
+
+        &__text-field{
+            background: white;
+        }
+
         
     }
 
