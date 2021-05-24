@@ -134,6 +134,7 @@ i {
   .main-container::after {
     height: 55vh;
     width: 31.25rem;
+    bottom: 25rem;
     right: -15rem;
   }
 }
@@ -146,12 +147,16 @@ i {
   background-color: #fff;
   width: 16.875rem;
   height: 34.375rem;
-  -webkit-transform: translateX(300px);
-          transform: translateX(300px);
   display: -ms-grid;
   display: grid;
   place-items: center;
   border-radius: 1.5625rem;
+  -webkit-transform: translateX(250px);
+          transform: translateX(250px);
+  -webkit-transition: -webkit-transform 1s ease-in;
+  transition: -webkit-transform 1s ease-in;
+  transition: transform 1s ease-in;
+  transition: transform 1s ease-in, -webkit-transform 1s ease-in;
 }
 
 @media screen and (max-width: 1200px) {
@@ -265,6 +270,8 @@ i {
   width: 60%;
   padding: 0.3125rem;
   color: #9b46d8;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .app__body__message__dog-walker2 {
@@ -273,6 +280,8 @@ i {
   width: 60%;
   padding: 0.3125rem;
   color: #9b46d8;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .app__body__message__dog-walker3 {
@@ -281,6 +290,8 @@ i {
   width: 55%;
   padding: 0.3125rem;
   color: #9b46d8;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
 }
 
 .app__body__message__dog-owner1 {
@@ -293,6 +304,11 @@ i {
   color: #5f4e6e;
 }
 
+.app__body__message__dog-owner1:last-of-type {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
 .app__body__message__dog-owner2 {
   background: white;
   border-radius: 0.3125rem 0.3125rem 0 0.3125rem;
@@ -301,6 +317,8 @@ i {
   -ms-flex-item-align: end;
       align-self: flex-end;
   color: #5f4e6e;
+  -webkit-animation-delay: 5.5s;
+          animation-delay: 5.5s;
 }
 
 .app__body__image-wrapper {
@@ -318,6 +336,21 @@ i {
   border-radius: 0.625rem;
 }
 
+.app__body__image-wrapper img:first-of-type {
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+}
+
+.app__body__image-wrapper img:nth-of-type(2) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.app__body__image-wrapper img:last-of-type {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+
 .app__body__option {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -332,6 +365,16 @@ i {
   width: 70%;
   gap: 1.25rem;
   color: white;
+}
+
+.app__body__option:first-of-type {
+  -webkit-animation-delay: 6.5s;
+          animation-delay: 6.5s;
+}
+
+.app__body__option:last-of-type {
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
 .app__body__option > span:first-of-type {
@@ -357,6 +400,8 @@ i {
   padding: 0.4375rem 0.4375rem 0.4375rem 1.25rem;
   border-radius: 1.875rem;
   color: #c6cacd;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
 }
 
 .app__body__text-field a > div {
@@ -378,6 +423,13 @@ i {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .text-wrapper {
+    position: relative;
+  }
 }
 
 .text-wrapper__container {
@@ -398,6 +450,7 @@ i {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: -25rem;
   }
 }
 

@@ -4,8 +4,12 @@
 .text-wrapper {
     background-color:  $color-app-bg;
     align-self: center;
-
-    
+    min-height: 100vh;
+    @media screen and (max-width: 1200px) {
+        position: relative;
+        
+        
+    }
     
     
     &__container {
@@ -16,6 +20,7 @@
         @media screen and (max-width: 1200px) {
             text-align: center;
             align-items: center;  
+            margin-top: rem(-400) ;
 
         }
         

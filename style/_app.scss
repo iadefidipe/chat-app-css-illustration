@@ -10,16 +10,21 @@
     background-color: #fff;
     width: rem(270);
     height: rem(550);
-    transform: translateX(300px);
     display: grid;
     place-items: center;
     border-radius: rem(25);
+    transform: translateX(250px) ;
+    transition: transform 1s ease-in;
+
+
     @media screen and (max-width: 1200px) {
         transform: translateX(0);
         margin: rem(100) auto 0 auto;
         z-index: 1;
 
     }
+
+    
     
 
     &__screen{
@@ -113,6 +118,7 @@
                 width: 60%;
                 padding: rem(5);
                 color: $color-left-chat;
+                animation-delay: 2.5s;
             }
             
             &__dog-walker2{
@@ -121,6 +127,7 @@
                 width: 60%;
                 padding: rem(5);
                 color: $color-left-chat;
+                animation-delay: 3s;
             }
 
             &__dog-walker3{
@@ -129,6 +136,7 @@
                 width: 55%;
                 padding: rem(5);
                 color: $color-left-chat;
+                animation-delay: 6s;
             }
 
             &__dog-owner1{
@@ -138,6 +146,9 @@
                 padding: rem(5);
                 align-self: flex-end;
                 color: $color-right-chat;
+                &:last-of-type{
+                    animation-delay: 5s;
+                }
             }
 
             &__dog-owner2{
@@ -147,6 +158,7 @@
                 padding: rem(5);
                 align-self: flex-end;
                 color: $color-right-chat;
+                animation-delay: 5.5s;
             }
 
 
@@ -160,6 +172,18 @@
                 width: rem(50);
                 height: rem(50);
                 border-radius: rem(10);
+
+                &:first-of-type{
+                    animation-delay: 3.5s;
+                }
+
+                &:nth-of-type(2){
+                    animation-delay: 4s;
+                }
+
+                &:last-of-type{
+                    animation-delay: 4.5s;
+                }
             }
         }
 
@@ -173,6 +197,12 @@
             gap: rem(20);
             color: white;
 
+            &:first-of-type{
+                animation-delay: 6.5s;
+            }
+            &:last-of-type{
+                animation-delay: 7s;
+            }
 
             >span:first-of-type{
                 font-size: rem(8);
@@ -193,6 +223,7 @@
             padding: rem(7) rem(7) rem(7) rem(20);
             border-radius: rem(30);
             color:$color-placeholder-text;
+            animation-delay: 8s;
 
             a{
                 >div{
@@ -219,3 +250,4 @@
     }
 
 }
+
