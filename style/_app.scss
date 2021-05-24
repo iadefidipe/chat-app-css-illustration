@@ -193,7 +193,7 @@
             background: $color-gradient;
             border-radius: rem(10) rem(10) rem(10) 0;
             padding: rem(5);
-            width: 70%;
+            width: rem(150);
             gap: rem(20);
             color: white;
 
@@ -211,7 +211,6 @@
                 font-size: rem(15);
                 font-weight: $weight-heavy;
             }
-
 
         }
 
